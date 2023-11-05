@@ -54,3 +54,6 @@ pred_df.columns = ['SalePrice']
 
 print('\n\n')
 print(pred_df)
+
+# Write to pred.csv
+pred_df.to_csv('data\\pred.csv')
