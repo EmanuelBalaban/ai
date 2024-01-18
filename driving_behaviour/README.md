@@ -50,6 +50,32 @@ Using 2 classifiers:
 * Logistic Regression (accuracy score of 0.35)
     * R-squared: -1.26  [ -∞ (worse performance) - 0.0 (no fit) - 1.0 (perfect fit) ]
 
+### Output
+
+```shell
+C:\Users\emanu\Desktop\Workspace\ai\driving_behaviour\.venv\Scripts\python.exe C:\Users\emanu\Desktop\Workspace\ai\driving_behaviour\main.py 
+Classes:  {'SLOW': 0, 'NORMAL': 1, 'AGGRESSIVE': 2}
+       Class  ClassCode
+0     NORMAL          1
+1     NORMAL          1
+2     NORMAL          1
+3     NORMAL          1
+4     NORMAL          1
+...      ...        ...
+3639    SLOW          0
+3640    SLOW          0
+3641    SLOW          0
+3642    SLOW          0
+3643    SLOW          0
+
+[3644 rows x 2 columns]
+Model Accuracy (Random Forest): 0.40
+Model Accuracy (Logistic Regression): 0.35
+R-squared (Logistic Regression): -1.26 - [ -∞ (worse performance) - 0.0 (no fit) - 1.0 (perfect fit) ]
+
+Process finished with exit code 0
+```
+
 ## References
 
 - [Kaggle](https://www.kaggle.com/competitions/driving-behaviour)

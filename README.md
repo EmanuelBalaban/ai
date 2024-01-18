@@ -1,3 +1,3 @@
 # ai
 
-Artificial intelligence projects presented at College.
+Artificial intelligence projects.
